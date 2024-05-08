@@ -1,6 +1,4 @@
 name: Weather Forecast CRON
-
-# Runs every morning at 08:30 (UTC+1 time)
 on: push
 
 
