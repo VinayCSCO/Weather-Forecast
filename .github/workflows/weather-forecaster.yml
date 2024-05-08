@@ -1,10 +1,8 @@
 name: Weather Forecast CRON
 
 # Runs every morning at 08:30 (UTC+1 time)
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "30 07 * * *"
+on: push
+
 
 jobs:
   forecast_weather:
